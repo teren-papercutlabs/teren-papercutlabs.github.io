@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Code Conversation Transcripts</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fafafa;
+            color: #333;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .conversation-list {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .conversation-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+        
+        .conversation-item:hover {
+            border-color: #2196f3;
+            box-shadow: 0 2px 8px rgba(33, 150, 243, 0.1);
+        }
+        
+        .conversation-item h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        
+        .conversation-item p {
+            margin: 0 0 15px 0;
+            color: #666;
+        }
+        
+        .conversation-item a {
+            color: #2196f3;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 16px;
+            border: 1px solid #2196f3;
+            border-radius: 4px;
+            display: inline-block;
+            transition: all 0.2s ease;
+        }
+        
+        .conversation-item a:hover {
+            background: #2196f3;
+            color: white;
+        }
+        
+        .stats {
+            font-size: 0.9em;
+            color: #999;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Claude Code Conversation Transcripts</h1>
+        <p>Human-AI collaboration in action</p>
+    </div>
+    
+    <div class="conversation-list">
+        <div class="conversation-item">
+            <h3>PaperCut Labs AI Sharing Session</h3>
+            <p>A comprehensive conversation about creating an AI sharing session agenda, covering Orion demos, AI best practices, and live coding sessions. Features extensive AI thinking blocks showing internal reasoning.</p>
+            <a href="conversation-1.html">View Conversation</a>
+            <div class="stats">240 messages • Includes AI thinking blocks</div>
+        </div>
+        
+        <div class="conversation-item">
+            <h3>Conversation Parser Development</h3>
+            <p>Building a tool to parse Claude Code conversation history from JSONL to readable HTML format. Covers requirements analysis, implementation, and iterative improvements.</p>
+            <a href="conversation-2.html">View Conversation</a>
+            <div class="stats">176 messages • Meta: This conversation!</div>
+        </div>
+    </div>
+</body>
+</html>
