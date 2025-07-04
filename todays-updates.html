@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Today's Updates - Orion Documentation</title>
-    <link rel="stylesheet" href="assets/orion-styles.css">
+    <title>Today's Updates</title>
     <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fafafa;
+            color: #333;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .project-list {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .project-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+        
+        .project-item:hover {
+            border-color: #2196f3;
+            box-shadow: 0 2px 8px rgba(33, 150, 243, 0.1);
+        }
+        
+        .project-item h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        
+        .project-item p {
+            margin: 0 0 15px 0;
+            color: #666;
+        }
+        
+        .project-item a {
+            color: #2196f3;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 16px;
+            border: 1px solid #2196f3;
+            border-radius: 4px;
+            display: inline-block;
+            transition: all 0.2s ease;
+        }
+        
+        .project-item a:hover {
+            background: #2196f3;
+            color: white;
+        }
+        
+        .date {
+            font-size: 0.9em;
+            color: #999;
+            margin-top: 10px;
+        }
         .update-section {
             background: var(--surface-color);
             border-radius: 12px;
@@ -139,135 +206,77 @@
     </style>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">Orion Documentation</div>
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="index.html">Overview</a></li>
-                        <li><a href="#todays-updates">Today's Updates</a></li>
-                        <li><a href="setup.html">Setup Guide</a></li>
-                        <li><a href="api-reference.html">API Reference</a></li>
-                    </ul>
-                </nav>
+    <div class="header">
+        <h1>🎁 Atlas AI Demo Session - Follow-up Materials</h1>
+        <p><a href="index.html" style="color: #2196f3; text-decoration: none;">← Back to Home</a> • July 4, 2025</p>
+    </div>
+    
+    <div class="project-list">
+        <div class="project-item">
+            <h3>📋 Meeting Recap</h3>
+            <p>Your Atlas AI demo session was successful! You were featured as a special guest for their weekly team call (17 people total), demonstrating <strong>Lyra</strong> workflow automation platform and engaging the team in interactive AI brainstorming.</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0;">
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 6px; border-left: 3px solid #28a745;">
+                    <strong>✅ Demo Success</strong><br>
+                    <small>Live demonstration of Lyra platform with WhatsApp integration and business-specific Q&A capabilities</small>
+                </div>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 6px; border-left: 3px solid #ffc107;">
+                    <strong>🤝 Team Engagement</strong><br>
+                    <small>Interactive format worked well - became collaborative discussion rather than one-way presentation</small>
+                </div>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 6px; border-left: 3px solid #007bff;">
+                    <strong>🚀 Next Steps</strong><br>
+                    <small>7 Atlas team members heading to SF to explore AI ecosystem; follow-up discussions planned</small>
+                </div>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 6px; border-left: 3px solid #6f42c1;">
+                    <strong>💡 Key Insights</strong><br>
+                    <small>Discussion about adapting AI tools to development processes (breaking large changes into smaller PRs)</small>
+                </div>
             </div>
         </div>
-    </header>
 
-    <div class="container" style="padding: 40px 0;">
-        <!-- Atlas Meeting Recap Section -->
-        <section class="update-section">
-            <div class="update-header">
-                <h1 class="update-title">🎁 Atlas AI Demo Session - Follow-up Materials</h1>
-                <p class="update-subtitle">July 4, 2025 • Post-meeting analysis and conversation transcripts</p>
-            </div>
-            <div class="update-content">
-                <div class="meeting-summary">
-                    <h3>📋 Meeting Recap</h3>
-                    <p>Your Atlas AI demo session was successful! You were featured as a special guest for their weekly team call (17 people total), demonstrating <strong>Lyra</strong> workflow automation platform and engaging the team in interactive AI brainstorming.</p>
-                    
-                    <div class="highlights">
-                        <div class="highlight-item">
-                            <div class="highlight-title">✅ Demo Success</div>
-                            Live demonstration of Lyra platform with WhatsApp integration and business-specific Q&A capabilities
-                        </div>
-                        <div class="highlight-item">
-                            <div class="highlight-title">🤝 Team Engagement</div>
-                            Interactive format worked well - became collaborative discussion rather than one-way presentation
-                        </div>
-                        <div class="highlight-item">
-                            <div class="highlight-title">🚀 Next Steps</div>
-                            7 Atlas team members heading to SF to explore AI ecosystem; follow-up discussions planned
-                        </div>
-                        <div class="highlight-item">
-                            <div class="highlight-title">💡 Key Insights</div>
-                            Discussion about adapting AI tools to development processes (breaking large changes into smaller PRs)
-                        </div>
-                    </div>
-                </div>
+        <div class="project-item">
+            <h3>📚 Supporting Conversation Transcripts</h3>
+            <p>These AI development conversations demonstrate practical applications and technical capabilities that align with Atlas team interests:</p>
+        </div>
 
-                <h3>📚 Supporting Conversation Transcripts</h3>
-                <p>These AI development conversations demonstrate practical applications and technical capabilities that align with Atlas team interests:</p>
-                
-                <div class="transcript-grid">
-                    <div class="transcript-card">
-                        <div class="transcript-header">
-                            <div class="transcript-title">📊 Google Sheets + Slack Integration</div>
-                            <div class="transcript-description">Live AI building practical business tools with real-time Google Sheets and Slack integration capabilities</div>
-                        </div>
-                        <div class="transcript-meta">
-                            <span class="transcript-date">July 4, 2025</span>
-                            <a href="../claude-chat-exports/2025-07-04--Users-teren-projects-orion-c27b069a.html" class="transcript-link" target="_blank">View Transcript</a>
-                        </div>
-                    </div>
+        <div class="project-item">
+            <h3>📊 Google Sheets + Slack Integration</h3>
+            <p>Live AI building practical business tools with real-time Google Sheets and Slack integration capabilities</p>
+            <a href="claude-chat-exports/2025-07-04--Users-teren-projects-orion-c27b069a.html" target="_blank">View Transcript</a>
+            <div class="date">July 4, 2025</div>
+        </div>
 
-                    <div class="transcript-card">
-                        <div class="transcript-header">
-                            <div class="transcript-title">🏗️ Session Management System</div>
-                            <div class="transcript-description">Sophisticated system architecture and multi-instance coordination demonstrating how AI can manage complex technical infrastructure</div>
-                        </div>
-                        <div class="transcript-meta">
-                            <span class="transcript-date">July 4, 2025</span>
-                            <a href="../claude-chat-exports/2025-07-04--Users-teren-projects-orion-5acc7b9c.html" class="transcript-link" target="_blank">View Transcript</a>
-                        </div>
-                    </div>
+        <div class="project-item">
+            <h3>🏗️ Session Management System</h3>
+            <p>Sophisticated system architecture and multi-instance coordination demonstrating how AI can manage complex technical infrastructure</p>
+            <a href="claude-chat-exports/2025-07-04--Users-teren-projects-orion-5acc7b9c.html" target="_blank">View Transcript</a>
+            <div class="date">July 4, 2025</div>
+        </div>
 
-                    <div class="transcript-card">
-                        <div class="transcript-header">
-                            <div class="transcript-title">📑 Google Slides MCP Development</div>
-                            <div class="transcript-description">Building presentation automation tools that teams can use for communication workflows</div>
-                        </div>
-                        <div class="transcript-meta">
-                            <span class="transcript-date">July 4, 2025</span>
-                            <a href="../claude-chat-exports/2025-07-04--Users-teren-projects-orion-60210eb5.html" class="transcript-link" target="_blank">View Transcript</a>
-                        </div>
-                    </div>
+        <div class="project-item">
+            <h3>📑 Google Slides MCP Development</h3>
+            <p>Building presentation automation tools that teams can use for communication workflows</p>
+            <a href="claude-chat-exports/2025-07-04--Users-teren-projects-orion-60210eb5.html" target="_blank">View Transcript</a>
+            <div class="date">July 4, 2025</div>
+        </div>
 
-                    <div class="transcript-card">
-                        <div class="transcript-header">
-                            <div class="transcript-title">🔄 Follow-up Planning & Recap</div>
-                            <div class="transcript-description">Strategic thinking about AI applications and creating meaningful follow-up materials (this conversation)</div>
-                        </div>
-                        <div class="transcript-meta">
-                            <span class="transcript-date">July 4, 2025</span>
-                            <a href="../claude-chat-exports/2025-07-04--Users-teren-projects-orion-bd8914f4.html" class="transcript-link" target="_blank">View Transcript</a>
-                        </div>
-                    </div>
-                </div>
+        <div class="project-item">
+            <h3>🔄 Follow-up Planning & Recap</h3>
+            <p>Strategic thinking about AI applications and creating meaningful follow-up materials (this conversation)</p>
+            <a href="claude-chat-exports/2025-07-04--Users-teren-projects-orion-bd8914f4.html" target="_blank">View Transcript</a>
+            <div class="date">July 4, 2025</div>
+        </div>
 
-                <div style="margin-top: 30px; padding: 20px; background: var(--background-color); border-radius: 8px; border: 1px solid var(--border-color);">
-                    <h4>🎯 Value for Atlas Team</h4>
-                    <ul style="color: var(--text-muted); line-height: 1.6;">
-                        <li><strong>Live Problem-Solving:</strong> See how AI tackles real business tool integration challenges</li>
-                        <li><strong>Technical Depth:</strong> Architecture discussions and scalability thinking</li>
-                        <li><strong>Practical Applications:</strong> Tools that directly impact team workflows</li>
-                        <li><strong>Implementation Insights:</strong> How to break down complex projects into manageable pieces</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Future sections can be added here -->
-        <section class="update-section" style="text-align: center; padding: 40px;">
-            <h3 style="color: var(--text-muted);">More updates coming soon...</h3>
-            <p style="color: var(--text-muted);">This page will be updated with new demonstrations, conversations, and insights as they develop.</p>
-        </section>
+        <div class="project-item">
+            <h3>🎯 Value for Atlas Team</h3>
+            <p><strong>Live Problem-Solving:</strong> See how AI tackles real business tool integration challenges<br>
+            <strong>Technical Depth:</strong> Architecture discussions and scalability thinking<br>
+            <strong>Practical Applications:</strong> Tools that directly impact team workflows<br>
+            <strong>Implementation Insights:</strong> How to break down complex projects into manageable pieces</p>
+        </div>
     </div>
 
-    <script>
-        // Add any interactive functionality if needed
-        document.addEventListener('DOMContentLoaded', function() {
-            // Smooth scrolling for internal links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
-        });
-    </script>
 </body>
 </html>
